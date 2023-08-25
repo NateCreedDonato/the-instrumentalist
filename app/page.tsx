@@ -2,16 +2,20 @@
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Hero from "./components/hero";
+import Pick from "./components/pick";
+import Popular from "./components/popular";
+import Slider from "./components/Slider";
 
 export default function Page() {
   return(
     <>
       <section>
         <Header />
-          <div>
-            <h1 className="text-[48px]">Hello World</h1>
-            <h2 className="text-[28px]">This is the Home Page</h2>
-          </div>
+        <Hero />
+        <Popular />
+        <Slider />
+        <Pick />
         <Footer />
       </section>
     </>
