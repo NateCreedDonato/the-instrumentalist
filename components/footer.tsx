@@ -8,7 +8,7 @@ export default function Footer() {
     return(
         <>
             <section>
-                <div>
+                <div className="bg-primary-grey text-white">
                     <div>
                         <h2>Contact Us</h2>
                         <ul>
@@ -58,12 +58,12 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="bg-secondary-grey">
                     <div>
-                        <h1 className="text-[20px]">The Instrumentalist | 2023</h1>
+                        <h1 className="text-[20px] text-white">The Instrumentalist | 2023</h1>
                     </div>
                     <div>
-                        <h1>Website by: Nathaniel Donato</h1>
+                        <h1 className="text-white">Website by: Nathaniel Donato</h1>
                     </div>
                 </div>
                 
