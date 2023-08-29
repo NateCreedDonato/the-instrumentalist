@@ -1,4 +1,5 @@
-import Image from "next/image"
+"use client";
+import Link from "next/link";
 
 export default function Header() {
     return(
@@ -8,10 +9,10 @@ export default function Header() {
                     <h1>The Instrumentalist</h1>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/rnd_squared/" className="mr-[20px]" target="_blank">Home</a>
-                    <a href="https://www.instagram.com/rnd_squared/" className="mr-[20px]" target="_blank">About</a>
-                    <a href="https://www.instagram.com/rnd_squared/" className="mr-[20px]" target="_blank">Article</a>
-                    <a href="https://www.instagram.com/rnd_squared/" className="mr-[20px]" target="_blank">Contact Us</a>
+                    <Link href=""><p>Home</p></Link>
+                    <Link href="../app/about/About.tsx">About</Link>
+                    <Link href="../app/articles/Articles.tsx">Articles</Link>
+                    <Link href="../app/contact/Contact.tsx">Contact Us</Link>
                 </div>
             </section>
         </>

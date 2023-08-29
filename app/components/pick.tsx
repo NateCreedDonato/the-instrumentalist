@@ -13,10 +13,10 @@ export default function Pick() {
                 <div>
                     <div>
                         <Image src={pick1} 
-                        alt="Luke Player on Guitar"
+                        alt="Luke St Quentin on Guitar"
                         width={383}
                         height={503} />
-                        <h1>Luke Player Live from Cape Town</h1>
+                        <h1>Luke St Quentin Live from Cape Town</h1>
                         <h2>The ups and downs of the High Roller</h2>
                     </div>
                     <div>
