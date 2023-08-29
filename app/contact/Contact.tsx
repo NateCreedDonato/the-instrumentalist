@@ -8,6 +8,7 @@ export default function Contact() {
                 <ul>
                     <li>Phone:0671144899</li>
                     <li>Email: info@theinstrumentalist.com</li>
+                    <li>Address: 16 Beachway Durban North</li>
                 </ul>
             </div>
         </>
