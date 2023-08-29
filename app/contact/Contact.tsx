@@ -7,6 +7,7 @@ export default function Contact() {
             <div>
                 <ul>
                     <li>Phone:0671144899</li>
+                    <li>Email: info@theinstrumentalist.com</li>
                 </ul>
             </div>
         </>
