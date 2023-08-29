@@ -1,5 +1,14 @@
 export default function Contact() {
     return(
-        <h1>This is the Contact Us Page</h1>
+        <>
+            <div>
+                <h1>Contact Us</h1>
+            </div>
+            <div>
+                <ul>
+                    
+                </ul>
+            </div>
+        </>
     )
 }
