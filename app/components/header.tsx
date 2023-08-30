@@ -9,10 +9,10 @@ export default function Header() {
                     <h1>The Instrumentalist</h1>
                 </div>
                 <div>
-                    <Link href=""><p>Home</p></Link>
-                    <Link href="../app/about/About.tsx">About</Link>
-                    <Link href="../app/articles/Articles.tsx">Articles</Link>
-                    <Link href="../app/contact/Contact.tsx">Contact Us</Link>
+                    <Link href="../"><p>Home</p></Link>
+                    <Link href="../about">About</Link>
+                    <Link href="../articles">Articles</Link>
+                    <Link href="../contact">Contact Us</Link>
                 </div>
             </section>
         </>

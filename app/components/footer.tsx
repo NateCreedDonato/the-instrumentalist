@@ -1,8 +1,8 @@
 import Image from "next/image"
-import fb from "../public/icons/facebook.png"
-import insta from "../public/icons/instagram.png"
-import pin from "../public/icons/pinterest.png"
-import x from "../public/icons/twitter.png"
+import fb from "../../public/icons/facebook.png"
+import insta from "../../public/icons/instagram.png"
+import pin from "../../public/icons/pinterest.png"
+import x from "../../public/icons/twitter.png"
 
 export default function Footer() {
     return(
