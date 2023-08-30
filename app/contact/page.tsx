@@ -15,6 +15,7 @@ export default function Contact() {
                     <li>Email: info@theinstrumentalist.com</li>
                     <li>Address: 16 Beachway Durban North</li>
                     <li>Kwa-Zulu Natal</li>
+                    <li>South Africa</li>
                 </ul>
             </div>
         </>
