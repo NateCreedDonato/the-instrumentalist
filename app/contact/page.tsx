@@ -14,6 +14,7 @@ export default function Contact() {
                     <li>Phone:0671144899</li>
                     <li>Email: info@theinstrumentalist.com</li>
                     <li>Address: 16 Beachway Durban North</li>
+                    <li>Kwa-Zulu Natal</li>
                 </ul>
             </div>
         </>
