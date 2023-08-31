@@ -12,6 +12,10 @@ export default function Hero() {
                     <Image src={pick2}
                     alt="This is just a stand in"/>
                 </div>
+                <div>
+                    <h2>3MD Live from London</h2>
+                    <p>From Durban to Dubai, 3MD Have made the tours Delightful</p>
+                </div>
 
             </section>
         </>
