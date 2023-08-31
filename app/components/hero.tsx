@@ -16,6 +16,9 @@ export default function Hero() {
                     <h2>3MD Live from London</h2>
                     <p>From Durban to Dubai, 3MD Have made the tours Delightful</p>
                 </div>
+                <div>
+                    <h3>By: Jerome Noah</h3>
+                </div>
 
             </section>
         </>
