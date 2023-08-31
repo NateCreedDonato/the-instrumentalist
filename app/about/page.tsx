@@ -18,6 +18,9 @@ export default function About () {
             <div>
                 <p>We are The Instrumentalist, an organisasion dedicated to bringing the latest on the music industry from the perspective of a Rock and Punk enjoyer</p>
             </div>
+            <div>
+                <p>Contribution by Nate Creed Rockstar</p>
+            </div>
         </>
     )
 }
