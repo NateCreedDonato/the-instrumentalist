@@ -8,16 +8,16 @@ export default function Footer() {
     return(
         <>
             <section>
-                <div className="bg-primary-grey text-white flex justify-between p-[30px]">
+                <div className="bg-primary-grey text-white flex justify-between p-[30px] pb-[60px]">
                     <div>
-                        <h2>Contact Us</h2>
+                        <h2 className="text-[18px] font-bold pb-[20px] leading-3">Contact Us</h2>
                         <ul>
                             <li>nathaniel@rndsquared.co.za</li>
                             <li>067 114 4899</li>
                         </ul>
                     </div>
                     <div>
-                        <h2>Explore</h2>
+                        <h2 className="text-[18px] font-bold pb-[20px] leading-3">Explore</h2>
                         <ul>
                             <li>About</li>
                             <li>Partners</li>
