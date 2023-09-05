@@ -1,5 +1,10 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import fb from "../../public/icons/facebook.png"
+import insta from "../../public/icons/instagram.png"
+import x from "../../public/icons/twitter.png"
+import pin from "../../public/icons/pinterest.png"
 
 export default function Header() {
     return(
@@ -9,11 +14,31 @@ export default function Header() {
                     <div className="text-[28px]">
                         <h1>The Instrumentalist</h1>
                     </div>
-                    <div className="text-[16px] flex justify-between">
+                    <div className="text-[16px] flex justify-between w-[40%]">
                         <Link href="../">Home</Link>
                         <Link href="../about">About</Link>
                         <Link href="../articles">Articles</Link>
                         <Link href="../contact">Contact Us</Link>
+                        <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
+                            src={fb}
+                            alt="Facebook Logo"
+                            width={20}
+                            height={20}/></a>
+                        <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
+                            src={insta}
+                            alt="Instagram Logo"
+                            width={20}
+                            height={20}/></a>
+                        <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
+                            src={x}
+                            alt="X Logo"
+                            width={20}
+                            height={20}/></a>
+                        <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
+                            src={pin}
+                            alt="pinterest Logo"
+                            width={20}
+                            height={20}/></a>
                     </div>
                 </div>
             </section>
