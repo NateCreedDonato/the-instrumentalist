@@ -62,7 +62,7 @@ export default function Footer() {
                     <div>
                         <h1 className="text-[20px] text-white">The Instrumentalist | 2023</h1>
                     </div>
-                    <div className="justify-end">
+                    <div className="">
                         <h1 className="text-white ">Website by: Nathaniel Donato</h1>
                     </div>
                 </div>
