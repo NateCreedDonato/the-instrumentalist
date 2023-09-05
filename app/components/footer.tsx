@@ -8,7 +8,7 @@ export default function Footer() {
     return(
         <>
             <section>
-                <div className="bg-primary-grey text-white flex justify-between p-[30px] pb-[60px]">
+                <div className="bg-primary-grey text-white text-[16px] flex justify-between p-[30px] pb-[60px]">
                     <div>
                         <h2 className="text-[18px] font-bold pb-[20px] leading-3">Contact Us</h2>
                         <ul>
@@ -27,13 +27,16 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2>Headquarters</h2>
+                        <h2 className="text-[18px] font-bold pb-[20px] leading-3">Headquarters</h2>
                         <ul>
-                            <li>16 Beachway, Durban North, Kwa-Zulu Natal South Africa 4051</li>
+                            <li>16 Beachway, Durban North,</li>
+                            <li>Kwa-Zulu Natal,</li>
+                            <li>South Africa,</li>
+                            <li>4051</li>
                         </ul>
                     </div>
                     <div>
-                        <h2>Connections</h2>
+                        <h2 className="text-[18px] font-bold pb-[20px] leading-3">Connections</h2>
                         <div className="flex justify-between">
                             <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
                                 src={fb}
