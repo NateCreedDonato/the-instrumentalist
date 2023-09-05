@@ -58,12 +58,12 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-secondary-grey">
+                <div className="bg-secondary-grey justify-between">
                     <div>
                         <h1 className="text-[20px] text-white">The Instrumentalist | 2023</h1>
                     </div>
-                    <div>
-                        <h1 className="text-white">Website by: Nathaniel Donato</h1>
+                    <div className="justify-end">
+                        <h1 className="text-white ">Website by: Nathaniel Donato</h1>
                     </div>
                 </div>
                 
