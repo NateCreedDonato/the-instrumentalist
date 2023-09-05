@@ -29,7 +29,7 @@ export default function Hero() {
                     <div>
                         <Image src={pop7}
                         alt="This is just a stand in"
-                        className="max-w-[1400px] max-h-[780px] object-contain text-center"/>
+                        className="max-w-[1400px] max-h-[780px] object-contain text-center duration-500"/>
                          <div>
                             <h2>Your Rig Matters</h2>
                             <p>What combo Rig should you go for?</p>
