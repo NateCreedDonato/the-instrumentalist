@@ -8,7 +8,7 @@ export default function Footer() {
     return(
         <>
             <section>
-                <div className="bg-primary-grey text-white">
+                <div className="bg-primary-grey text-white flex justify-between p-[30px]">
                     <div>
                         <h2>Contact Us</h2>
                         <ul>
@@ -34,7 +34,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h2>Connections</h2>
-                        <div>
+                        <div className="flex justify-between">
                             <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
                                 src={fb}
                                 alt="Facebook Logo"
@@ -58,7 +58,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-secondary-grey justify-between">
+                <div className="bg-secondary-grey flex justify-between p-[30px]">
                     <div>
                         <h1 className="text-[20px] text-white">The Instrumentalist | 2023</h1>
                     </div>
