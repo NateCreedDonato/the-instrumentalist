@@ -25,7 +25,7 @@ export default function Pick() {
                         width={383}
                         height={503} />
                         <h1 className="text-[16px]">Nathaniel Donato Live from Ballito</h1>
-                        <h2>When we say... Juicebox, live from centre Stage</h2>
+                        <h2 className="text-[12px]">When we say... Juicebox, live from centre Stage</h2>
                     </div>
                 </div>
             </section>
