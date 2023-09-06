@@ -9,7 +9,7 @@ import pin from "../../public/icons/pinterest.png"
 export default function Header() {
     return(
         <>
-            <section>
+            <section className="relative">
                 <div className="flex justify-between p-[30px] fixed w-[100%]">
                     <div className="text-[28px]">
                         <h1>The Instrumentalist</h1>
@@ -19,6 +19,7 @@ export default function Header() {
                         <Link href="../about">About</Link>
                         <Link href="../articles">Articles</Link>
                         <Link href="../contact">Contact Us</Link>
+                        <p>|</p>
                         <a href="https://web.facebook.com/rndsquared?_rdc=1&_rdr" className="mr-[20px]" target="_blank"><Image 
                             src={fb}
                             alt="Facebook Logo"
