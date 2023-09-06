@@ -15,22 +15,22 @@ export default function Popular() {
                 <div>
                     <h1>Popular</h1>
                 </div>
-                <div>
-                    <div>
+                <div className="flex flex-wrap justify-between relative">
+                    <div className="w-[20%]">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
                         width={383}
                         height={503} />
                         <h1>Nathaniel Donato on Guitar playing Techniques and Skills</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop2} 
                         alt="Fender Telecaster"
                         width={383}
                         height={503} />
                         <h1>Does the Tele need a bridge Whammy</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop3} 
                         alt="Drummer on Drums"
                         width={383}
