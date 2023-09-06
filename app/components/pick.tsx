@@ -24,7 +24,7 @@ export default function Pick() {
                         alt="Nathaniel Donato on Guitar"
                         width={383}
                         height={503} />
-                        <h1>Nathaniel Donato Live from Ballito</h1>
+                        <h1 className="text-[16px]">Nathaniel Donato Live from Ballito</h1>
                         <h2>When we say... Juicebox, live from centre Stage</h2>
                     </div>
                 </div>
