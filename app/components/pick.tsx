@@ -16,10 +16,10 @@ export default function Pick() {
                         alt="Luke St Quentin on Guitar"
                         width={383}
                         height={503} />
-                        <h1>Luke St Quentin Live from Cape Town</h1>
+                        <h1 className="text-[16px]">Luke St Quentin Live from Cape Town</h1>
                         <h2>The ups and downs of the High Roller</h2>
                     </div>
-                    <div>
+                    <div className="reative w-[45%]">
                         <Image src={pick3} 
                         alt="Nathaniel Donato on Guitar"
                         width={383}
