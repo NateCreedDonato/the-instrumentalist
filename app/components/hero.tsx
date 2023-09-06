@@ -10,12 +10,6 @@ export default function Hero() {
     return(
         <>
             <section>
-                <div>
-                    <h1>Trending</h1>
-                </div>
-                <div>
-                    <h3>By: Jerome Noah</h3>
-                </div>
                 <Carousel autoplay className="w-[100%] h-[600px] duration-300 relative">
                     <div className="h-[600px] relative">
                         <Image src={pick2}
