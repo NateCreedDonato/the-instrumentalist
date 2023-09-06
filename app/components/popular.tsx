@@ -15,8 +15,8 @@ export default function Popular() {
                 <div>
                     <h1>Popular</h1>
                 </div>
-                <div className="flex flex-wrap justify-between relative">
-                    <div className="w-[20%]">
+                <div className="flex flex-wrap justify-between relative p-[30px]">
+                    <div className="w-[20%] mr-[30px]">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
                         width={383}
@@ -37,35 +37,35 @@ export default function Popular() {
                         height={503} />
                         <h1>Drum Masters, can you really master the Drums</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop4} 
                         alt="Nord Keyboard"
                         width={383}
                         height={503} />
                         <h1>Best Keyboards for live performances</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop5} 
                         alt="Band performing live"
                         width={383}
                         height={503} />
                         <h1>Live performance Review of NATECREED live in Durban </h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop6} 
                         alt="Empty Drum kit"
                         width={383}
                         height={503} />
                         <h1>Best Drum Kits for beginners</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop7} 
                         alt="Fender Stratocaster on an Amp"
                         width={383}
                         height={503} />
                         <h1>The ressurgence of guitars in modern Music</h1>
                     </div>
-                    <div>
+                    <div className="w-[20%]">
                         <Image src={pop8} 
                         alt="Empty Keyboard"
                         width={383}

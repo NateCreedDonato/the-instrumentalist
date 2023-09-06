@@ -10,7 +10,7 @@ export default function Pick() {
                 <div>
                     <h1>Editors Pick</h1>
                 </div>
-                <div>
+                <div className="flex justify-between p-[30px]">
                     <div>
                         <Image src={pick1} 
                         alt="Luke St Quentin on Guitar"
