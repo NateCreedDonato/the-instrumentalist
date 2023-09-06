@@ -10,11 +10,11 @@ export default function Header() {
     return(
         <>
             <section>
-                <div className="flex justify-between p-[30px]">
+                <div className="flex justify-between p-[30px] fixed w-[100%]">
                     <div className="text-[28px]">
                         <h1>The Instrumentalist</h1>
                     </div>
-                    <div className="text-[16px] flex justify-between w-[40%]">
+                    <div className="text-[16px] flex justify-between w-[50%] relative">
                         <Link href="../">Home</Link>
                         <Link href="../about">About</Link>
                         <Link href="../articles">Articles</Link>
