@@ -17,7 +17,7 @@ export default function Pick() {
                         width={383}
                         height={503} />
                         <h1 className="text-[16px]">Luke St Quentin Live from Cape Town</h1>
-                        <h2>The ups and downs of the High Roller</h2>
+                        <h2 className="text-[12px]">The ups and downs of the High Roller</h2>
                     </div>
                     <div className="reative w-[45%]">
                         <Image src={pick3} 
