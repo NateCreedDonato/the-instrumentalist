@@ -14,7 +14,7 @@ export default function Header() {
                     <div className="text-[28px] text-white font-bold">
                         <h1>The Instrumentalist</h1>
                     </div>
-                    <div className="text-[16px] flex justify-between w-[35%] relative text-white">
+                    <div className="text-[16px] font-bold flex justify-between w-[35%] relative text-white">
                         <Link href="../">Home</Link>
                         <Link href="../about">About</Link>
                         <Link href="../articles">Articles</Link>
