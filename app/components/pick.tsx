@@ -6,7 +6,7 @@ import pick3 from "../../public/images/pick3.jpg"
 export default function Pick() {
     return(
         <>
-            <section className="bg-slate-200">
+            <section className="bg-slate-100">
                 <div>
                     <h1>Editors Pick</h1>
                 </div>
