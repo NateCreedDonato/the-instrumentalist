@@ -9,12 +9,12 @@ import pin from "../../public/icons/pinterest.png"
 export default function Header() {
     return(
         <>
-            <section className="relative">
-                <div className="flex justify-between p-[30px] fixed w-[100%]">
+            <section>
+                <div className="flex justify-between p-[30px] fixed w-[100%] z-50">
                     <div className="text-[28px]">
                         <h1>The Instrumentalist</h1>
                     </div>
-                    <div className="text-[16px] flex justify-between w-[50%] relative">
+                    <div className="text-[16px] flex justify-between w-[35%] relative">
                         <Link href="../">Home</Link>
                         <Link href="../about">About</Link>
                         <Link href="../articles">Articles</Link>
