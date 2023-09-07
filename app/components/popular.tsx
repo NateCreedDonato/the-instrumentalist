@@ -11,7 +11,7 @@ import pop8 from "../../public/images/pop8.jpg"
 export default function Popular() {
     return(
         <>
-            <section className=" bg-slate-200">
+            <section className="bg-slate-100">
                 <div>
                     <h1>Popular</h1>
                 </div>

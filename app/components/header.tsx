@@ -10,7 +10,7 @@ export default function Header() {
     return(
         <>
             <section>
-                <div className="flex justify-between p-[30px] fixed w-[100%] z-50">
+                <div className="flex justify-between p-[30px] fixed w-[100%] z-50 bg-black bg-opacity-30">
                     <div className="text-[28px] text-white font-bold">
                         <h1>The Instrumentalist</h1>
                     </div>
