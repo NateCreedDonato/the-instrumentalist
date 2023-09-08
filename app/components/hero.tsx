@@ -3,6 +3,9 @@ import pick2 from "../../public/images/pick2.jpg"
 import pop7 from "../../public/images/pop7.jpg"
 import pop3 from "../../public/images/pop3.jpg"
 import pop4 from "../../public/images/pop4.jpg"
+import live2 from "../../public/images/live2.jpg"
+import live4 from "../../public/images/live4.jpg"
+
 
 import { Carousel } from "antd";
 
@@ -45,6 +48,24 @@ export default function Hero() {
                          <div>
                             <h2>Keys to sound great</h2>
                             <p>Discovering the Updated Nord Keyboard lineup</p>
+                        </div>
+                    </div>
+                    <div className="h-[600px] relative">
+                        <Image src={live2}
+                        alt="This is just a stand in" fill
+                        className="object-cover "/>
+                         <div>
+                            <h2>Square Hide live in Cape Town</h2>
+                            <p>A night full of excitement and loud music</p>
+                        </div>
+                    </div>
+                    <div className="h-[600px] relative">
+                        <Image src={live4}
+                        alt="This is just a stand in" fill
+                        className="object-cover "/>
+                         <div>
+                            <h2>Proxy Generation live in Johannesburg</h2>
+                            <p>The fussion of pop and punk</p>
                         </div>
                     </div>
                 </Carousel>
