@@ -26,8 +26,8 @@ export default function Slider() {
                         alt="Live performance of a band"
                         className="object-cover"/>
                         <div>
-                            <h2>Buckshot Live in Bloemfontein</h2>
-                            <p>Lighting up the Free State with the warm sounds of Buckshot</p>
+                            <h2>Square Hide live in Cape Town</h2>
+                            <p>A night full of excitement and loud music</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
@@ -35,8 +35,8 @@ export default function Slider() {
                         alt="Live performance of a band"
                         className="object-cover"/>
                         <div>
-                            <h2>Buckshot Live in Bloemfontein</h2>
-                            <p>Lighting up the Free State with the warm sounds of Buckshot</p>
+                            <h2>El Idolo tel Mastre Rocking Centre Stage</h2>
+                            <p>Live from the Guitar Centre in Ballito</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
@@ -44,8 +44,8 @@ export default function Slider() {
                         alt="Live performance of a band"
                         className="object-cover"/>
                         <div>
-                            <h2>Buckshot Live in Bloemfontein</h2>
-                            <p>Lighting up the Free State with the warm sounds of Buckshot</p>
+                            <h2>Proxy Generation live in Johannesburg</h2>
+                            <p>The fussion of pop and punk</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
@@ -53,8 +53,8 @@ export default function Slider() {
                         alt="Live performance of a band"
                         className="object-cover"/>
                         <div>
-                            <h2>Buckshot Live in Bloemfontein</h2>
-                            <p>Lighting up the Free State with the warm sounds of Buckshot</p>
+                            <h2>Breaker Bout live in Pretoria</h2>
+                            <p>Rocking the capital even during the winter</p>
                         </div>
                     </div>
                 </Carousel>
