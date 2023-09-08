@@ -11,6 +11,9 @@ export default function Slider() {
     return (
         <>
             <section className="bg-slate-100">
+                <div>
+                    <h1>Live events</h1>
+                </div>
                 <Carousel autoplay className="w-[100%] h-[600px] duration-300 relative">
                     <div className="h-[600px] relative">
                         <Image src={live1} 
