@@ -13,7 +13,7 @@ export default function Footer() {
                         <h2 className="text-[18px] font-bold pb-[20px] leading-3">Contact Us</h2>
                         <ul>
                             <li>nathaniel@rndsquared.co.za</li>
-                            <li>067 114 4899</li>
+                            <li>+27 67 114 4899</li>
                         </ul>
                     </div>
                     <div>

@@ -9,7 +9,7 @@ import Slider from "./components/Slider";
 export default function Page() {
   return(
     <>
-      <section>
+      <section className="bg-slate-100">
         <Header />
         <Hero />
         <Popular />

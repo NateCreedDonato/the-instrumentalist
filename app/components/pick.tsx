@@ -7,8 +7,8 @@ export default function Pick() {
     return(
         <>
             <section className="bg-slate-100">
-                <div>
-                    <h1>Editors Pick</h1>
+                <div className="m-[30px]">
+                    <h1 className="text-[26px] font-bold">Editors Pick</h1>
                 </div>
                 <div className="flex justify-between p-[30px] ">
                     <div className="relative w-[45%]">

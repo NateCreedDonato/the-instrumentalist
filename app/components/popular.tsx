@@ -12,7 +12,7 @@ export default function Popular() {
     return(
         <>
             <section className="bg-slate-100">
-                <div className="mt-[20px]">
+                <div className="m-[30px]">
                     <h1 className="text-[26px] font-bold">New Albums</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
@@ -20,7 +20,7 @@ export default function Popular() {
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
                         className="w-[310px] h-[280px] object-cover" />
-                        <h1 className="text-white z-40">Nathaniel Donato on Guitar playing Techniques and Skills</h1>
+                        <h1>Nathaniel Donato on Guitar playing Techniques and Skills</h1>
                     </div>
                     <div className="w-[20%] mr-[10px]">
                         <Image src={pop2} 
