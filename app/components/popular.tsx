@@ -13,7 +13,7 @@ export default function Popular() {
         <>
             <section className="bg-slate-100">
                 <div>
-                    <h1>Popular</h1>
+                    <h1>New Albums</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
                     <div className="w-[20%] mr-[30px]">
