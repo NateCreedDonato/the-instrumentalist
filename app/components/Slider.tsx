@@ -34,15 +34,6 @@ export default function Slider() {
                         </div>
                     </div>
                     <div className="h-[600px] relative">
-                        <Image src={live3} 
-                        alt="Live performance of a band"
-                        className="object-cover"/>
-                        <div>
-                            <h2>El Idolo tel Mastre Rocking Centre Stage</h2>
-                            <p>Live from the Guitar Centre in Ballito</p>
-                        </div>
-                    </div>
-                    <div className="h-[600px] relative">
                         <Image src={live4} 
                         alt="Live performance of a band"
                         className="object-cover"/>

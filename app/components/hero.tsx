@@ -6,7 +6,6 @@ import pop4 from "../../public/images/pop4.jpg"
 import live2 from "../../public/images/live2.jpg"
 import live4 from "../../public/images/live4.jpg"
 
-
 import { Carousel } from "antd";
 
 export default function Hero() {
@@ -17,55 +16,55 @@ export default function Hero() {
                     <div className="h-[600px] relative">
                         <Image src={pick2}
                         alt="This is just a stand in" fill
-                        className="object-cover "/>
-                         <div>
-                            <h2>3MD Live from London</h2>
-                            <p>From Durban to Dubai, 3MD Have made the tours Delightful</p>
+                        className="object-cover"/>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">3MD Live from London</h2>
+                            <p className="text-[26px] font-semibold">From Durban to Dubai, 3MD Have made the tours Delightful</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
                         <Image src={pop7}
                         alt="This is just a stand in" fill
                         className="object-cover"/>
-                         <div>
-                            <h2>Your Rig Matters</h2>
-                            <p>What combo Rig should you go for?</p>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">Your Rig Matters</h2>
+                            <p className="text-[26px] font-semibold">What combo Rig should you go for?</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
                         <Image src={pop3}
                         alt="This is just a stand in" fill
                         className="object-cover"/>
-                         <div>
-                            <h2>Drummers Paradise</h2>
-                            <p>Is it more than just hitting drums?</p>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">Drummers Paradise</h2>
+                            <p className="text-[26px] font-semibold">Is it more than just hitting drums?</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
                         <Image src={pop4}
                         alt="This is just a stand in" fill
                         className="object-cover"/>
-                         <div>
-                            <h2>Keys to sound great</h2>
-                            <p>Discovering the Updated Nord Keyboard lineup</p>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">Keys to sound great</h2>
+                            <p className="text-[26px] font-semibold">Discovering the Updated Nord Keyboard lineup</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
                         <Image src={live2}
                         alt="This is just a stand in" fill
                         className="object-cover "/>
-                         <div>
-                            <h2>Square Hide live in Cape Town</h2>
-                            <p>A night full of excitement and loud music</p>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">Square Hide live in Cape Town</h2>
+                            <p className="text-[26px] font-semibold">A night full of excitement and loud music</p>
                         </div>
                     </div>
                     <div className="h-[600px] relative">
                         <Image src={live4}
                         alt="This is just a stand in" fill
                         className="object-cover "/>
-                         <div>
-                            <h2>Proxy Generation live in Johannesburg</h2>
-                            <p>The fussion of pop and punk</p>
+                         <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h2 className="text-[46px] font-bold">Proxy Generation live in Johannesburg</h2>
+                            <p className="text-[26px] font-semibold">The fussion of pop and punk</p>
                         </div>
                     </div>
                 </Carousel>
