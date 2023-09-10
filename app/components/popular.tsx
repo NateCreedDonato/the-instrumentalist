@@ -16,60 +16,52 @@ export default function Popular() {
                     <h1>New Albums</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
-                    <div className="w-[20%] mr-[30px]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Nathaniel Donato on Guitar playing Techniques and Skills</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop2} 
                         alt="Fender Telecaster"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Does the Tele need a bridge Whammy</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop3} 
                         alt="Drummer on Drums"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Drum Masters, can you really master the Drums</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop4} 
                         alt="Nord Keyboard"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Best Keyboards for live performances</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop5} 
                         alt="Band performing live"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Live performance Review of NATECREED live in Durban </h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop6} 
                         alt="Empty Drum kit"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Best Drum Kits for beginners</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop7} 
                         alt="Fender Stratocaster on an Amp"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>The ressurgence of guitars in modern Music</h1>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="w-[20%] mr-[10px]">
                         <Image src={pop8} 
                         alt="Empty Keyboard"
-                        width={383}
-                        height={503} />
+                        className="w-[310px] h-[280px] object-cover" />
                         <h1>Marstering the Piano in 10 steps or less</h1>
                     </div>
                 </div>
