@@ -12,8 +12,8 @@ export default function Popular() {
     return(
         <>
             <section className="bg-slate-100">
-                <div>
-                    <h1>New Albums</h1>
+                <div className="mt-[20px]">
+                    <h1 className="text-[26px] font-bold">New Albums</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
                     <div className="w-[20%] mr-[10px]">
