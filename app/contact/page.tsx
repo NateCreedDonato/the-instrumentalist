@@ -18,6 +18,7 @@ export default function Contact() {
                     <li>Address: 16 Beachway Durban North</li>
                     <li>Kwa-Zulu Natal</li>
                     <li>South Africa</li>
+                    <li>4051</li>
                 </ul>
             </div>
         </>
