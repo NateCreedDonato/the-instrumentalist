@@ -12,7 +12,7 @@ export default function Slider() {
         <>
             <section className="bg-slate-100">
                 <div className="m-[30px]">
-                    <h1 className="text-[26px] font-bold">Live events</h1>
+                    <h1 className="text-[26px] font-bold m-[40px]">Live events</h1>
                 </div>
                 <Carousel autoplay className="w-[100%] h-[600px] duration-300 relative">
                     <div className="h-[600px] relative">

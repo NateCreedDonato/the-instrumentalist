@@ -7,9 +7,9 @@ import x from "../../public/icons/twitter.png"
 export default function Footer() {
     return(
         <>
-            <section>
-                <div className="bg-primary-grey text-white text-[16px] flex justify-between p-[30px] pb-[60px]">
-                    <div>
+            <section className="bg-primary-grey text-white text-[16px] pt-[50px]">
+                <div className="flex justify-between p-[30px] pb-[70px] w-[85%]">
+                    <div className="ml-[40px]">
                         <h2 className="text-[18px] font-bold pb-[20px] leading-3">Contact Us</h2>
                         <ul>
                             <li>nathaniel@rndsquared.co.za</li>

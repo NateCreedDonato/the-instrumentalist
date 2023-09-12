@@ -11,7 +11,7 @@ export default function Header() {
         <>
             <section>
                 <div className="flex justify-between p-[30px] fixed w-[100%] z-50 bg-black bg-opacity-30">
-                    <div className="text-[28px] text-white font-bold">
+                    <div className="text-[28px] text-white font-bold ml-[40px]">
                         <h1>The Instrumentalist</h1>
                     </div>
                     <div className="text-[16px] font-bold flex justify-between w-[40%] relative text-white">
