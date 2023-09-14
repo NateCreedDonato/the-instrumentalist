@@ -21,7 +21,7 @@ export default function Popular() {
                         alt="Nathaniel Donato on Guitar"
                         className="w-[310px] h-[280px] object-cover rounded-md]" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1 className="text-[18px] font-bold mb-[30px]">Nathaniel Donato on Guitar playing Techniques and Skills</h1>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Nathaniel Donato on Guitar playing Techniques and Skills.</h1>
                             <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
                             <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
@@ -31,17 +31,19 @@ export default function Popular() {
                         alt="Fender Telecaster"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Does the Tele need a bridge Whammy</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Does the Tele need a bridge Whammy.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
                     </div>
-                    <div className="w-[310px]mb-[30px] bg-white rounded-md">
+                    <div className="w-[310px] mb-[30px] bg-white rounded-md">
                         <Image src={pop3} 
                         alt="Drummer on Drums"
-                        className="w-[310px] h-[280px] object-cover rounded-md" />
+                        className="w-[310px] h-[280px] object-cover rounded-md"/>
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Drum Masters, can you really master the Drums</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Drum Masters, can you really master the Drums.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
                     </div>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
@@ -49,8 +51,9 @@ export default function Popular() {
                         alt="Nord Keyboard"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Best Keyboards for live performances</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Best Keyboards for live performances.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
                     </div>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
@@ -58,8 +61,9 @@ export default function Popular() {
                         alt="Band performing live"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Live performance Review of NATECREED live in Durban </h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Live performance Review of NATECREED live in Durban.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
                     </div>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
@@ -67,8 +71,9 @@ export default function Popular() {
                         alt="Empty Drum kit"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Best Drum Kits for beginners</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Best Drum Kits for beginners and more...</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
                     </div>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
@@ -76,8 +81,9 @@ export default function Popular() {
                         alt="Fender Stratocaster on an Amp"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>The ressurgence of guitars in modern Music</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">The ressurgence of guitars in modern Music.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>               
                     </div>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
@@ -85,8 +91,9 @@ export default function Popular() {
                         alt="Empty Keyboard"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
-                            <h1>Marstering the Piano in 10 steps or less</h1>
-                            <h2>By Nathaniel Donato</h2>
+                            <h1 className="text-[18px] font-bold mb-[30px]">Marstering the Piano in 10 steps or less.</h1>
+                            <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
+                            <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>                
                     </div>
                 </div>
