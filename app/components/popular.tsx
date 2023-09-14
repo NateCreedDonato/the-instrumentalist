@@ -19,7 +19,7 @@ export default function Popular() {
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
-                        className="w-[310px] h-[280px] object-cover rounded-md]" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <div className="mt-[30px] ml-[20px] w-[85%]">
                             <h1 className="text-[18px] font-bold mb-[30px]">Nathaniel Donato on Guitar playing Techniques and Skills.</h1>
                             <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
