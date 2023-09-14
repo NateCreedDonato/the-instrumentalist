@@ -22,7 +22,7 @@ export default function Footer() {
                             <li>About</li>
                             <li>Partners</li>
                             <li>Job Opportunities</li>
-                            <li>Membership</li>
+                            <li>Donate/Support Us</li>
                             <li>Advertise</li>
                         </ul>
                     </div>
