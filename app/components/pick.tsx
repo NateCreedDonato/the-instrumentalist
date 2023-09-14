@@ -15,15 +15,20 @@ export default function Pick() {
                         <Image src={pick1} 
                         alt="Luke St Quentin on Guitar"
                         className="w-[655px] h-[320px] object-cover" />
-                        <h1 className="text-[16px]">Luke St Quentin Live from Cape Town</h1>
-                        <h2 className="text-[12px]">The ups and downs of the High Roller</h2>
+                        <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h1 className="text-[18px]">Luke St Quentin Live from Cape Town</h1>
+                            <h2 className="text-[14px]">The ups and downs of the High Roller</h2>
+                        </div>
                     </div>
-                    <div className="reative w-[49%]">
+                    <div className="relative w-[49%]">
                         <Image src={pick3} 
                         alt="Nathaniel Donato on Guitar"
                         className="w-[655px] h-[320px] object-cover"  />
-                        <h1 className="text-[16px]">Nathaniel Donato Live from Ballito</h1>
-                        <h2 className="text-[12px]">When we say... Juicebox, live from centre Stage</h2>
+                        <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                            <h1 className="text-[18px]">Nathaniel Donato Live from Ballito</h1>
+                            <h2 className="text-[14px]">When we say... Juicebox, live from centre Stage</h2>
+                        </div>
+                        
                     </div>
                 </div>
             </section>
