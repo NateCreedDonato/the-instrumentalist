@@ -25,43 +25,43 @@ export default function Popular() {
                     <div className="w-[25%]">
                         <Image src={pop2} 
                         alt="Fender Telecaster"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Does the Tele need a bridge Whammy</h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop3} 
                         alt="Drummer on Drums"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Drum Masters, can you really master the Drums</h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop4} 
                         alt="Nord Keyboard"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Best Keyboards for live performances</h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop5} 
                         alt="Band performing live"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Live performance Review of NATECREED live in Durban </h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop6} 
                         alt="Empty Drum kit"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Best Drum Kits for beginners</h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop7} 
                         alt="Fender Stratocaster on an Amp"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>The ressurgence of guitars in modern Music</h1>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop8} 
                         alt="Empty Keyboard"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Marstering the Piano in 10 steps or less</h1>
                     </div>
                 </div>
