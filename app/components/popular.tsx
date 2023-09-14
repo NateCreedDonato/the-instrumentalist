@@ -13,56 +13,64 @@ export default function Popular() {
         <>
             <section className="bg-slate-100 m-[40px]">
                 <div className="m-[30px]">
-                    <h1 className="text-[26px] font-bold">New Albums</h1>
+                    <h1 className="text-[26px] font-bold">Popular</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
-                    <div className="w-[25%]">
+                    <div className="w-[25%] ">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Nathaniel Donato on Guitar playing Techniques and Skills</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop2} 
                         alt="Fender Telecaster"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Does the Tele need a bridge Whammy</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop3} 
                         alt="Drummer on Drums"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Drum Masters, can you really master the Drums</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop4} 
                         alt="Nord Keyboard"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Best Keyboards for live performances</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop5} 
                         alt="Band performing live"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Live performance Review of NATECREED live in Durban </h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop6} 
                         alt="Empty Drum kit"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Best Drum Kits for beginners</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop7} 
                         alt="Fender Stratocaster on an Amp"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>The ressurgence of guitars in modern Music</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                     <div className="w-[25%]">
                         <Image src={pop8} 
                         alt="Empty Keyboard"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Marstering the Piano in 10 steps or less</h1>
+                        <h2>By Nathaniel Donato</h2>
                     </div>
                 </div>
             </section>
