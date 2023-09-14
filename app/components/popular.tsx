@@ -19,7 +19,7 @@ export default function Popular() {
                     <div className="w-[25%]">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
-                        className="w-[310px] h-[280px] object-cover" />
+                        className="w-[310px] h-[280px] object-cover rounded-md" />
                         <h1>Nathaniel Donato on Guitar playing Techniques and Skills</h1>
                     </div>
                     <div className="w-[25%]">
