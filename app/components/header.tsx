@@ -41,7 +41,7 @@ export default function Header() {
                             width={20}
                             height={20}/></a>
                         <p>|</p>
-                        <p>Log In</p>
+                        <Link href="../signin">Log In</Link>
                     </div>
                 </div>
             </section>
