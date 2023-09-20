@@ -8,18 +8,14 @@ export default function Articles () {
     return(
         <>
             <Header />
-            <div>
-                <div className="relative w-[100%] h-[600px]">
-                    <Image src={pop7} 
-                    alt="This is a guitar"
-                    className="object-cover"/>
+            <div className="h-[600px] relative">
+                <Image src={pop7}
+                alt="This is just a stand in" fill
+                className="object-cover"/>
+                <div className="text-white absolute text-left top-[232px] ml-[80px] z-40">
+                    <h2 className="text-[46px] font-bold">Your Rig Matters</h2>
+                    <p className="text-[26px] font-semibold">What combo Rig should you go for?</p>
                 </div>
-                <h1>This is the Articles Page</h1>
-                <h2>This is where articles will go</h2>
-                <h3>As well as another slider to show them all</h3>
-            </div>
-            <div>
-                <p>This is where the stuff goes, like the paragraphs and stuff</p>
             </div>
             <Footer />
         </>
