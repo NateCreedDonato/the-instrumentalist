@@ -14,6 +14,7 @@ export default function Articles () {
             <div>
                 <p>This is where the stuff goes, like the paragraphs and stuff</p>
             </div>
+            <Footer />
         </>
         
     )
