@@ -9,9 +9,10 @@ export default function Articles () {
         <>
             <Header />
             <div>
-                <div className="h-[600px] relative">
+                <div className="relative w-[100%] h-[600px]">
                     <Image src={pop7} 
-                    alt="This is a guitar"/>
+                    alt="This is a guitar"
+                    className="object-cover"/>
                 </div>
                 <h1>This is the Articles Page</h1>
                 <h2>This is where articles will go</h2>
