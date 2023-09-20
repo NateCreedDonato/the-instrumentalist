@@ -4,6 +4,7 @@ import Header from "../components/header"
 export default function Articles () {
     return(
         <>
+            <Header />
             <div>
                 <h1>This is the Articles Page</h1>
                 <h2>This is where articles will go</h2>
