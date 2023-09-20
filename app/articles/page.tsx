@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import pop7 from "../../public/images/pop7.jpg"
 
 export default function Articles () {
     return(
