@@ -16,7 +16,7 @@ export default function Articles () {
                     <h2 className="text-[46px] font-bold">Your Rig Matters</h2>
                     <p className="text-[26px] font-semibold">What combo Rig should you go for?</p>
                     <p className="text-[20px] font-bold">This crazy side of the music industry</p>
-                    <h2 className="text-[35px] font-bold text-grey">Just making changes</h2>
+                    <h2 className="text-[35px] font-bold text-sky-600">Just making changes</h2>
                 </div>
             </div>
             <Footer />
