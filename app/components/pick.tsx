@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import pick1 from "../../public/images/pick1.jpg"
 import pick2 from "../../public/images/pick2.jpg"
 import pick3 from "../../public/images/pick3.jpg"
@@ -11,7 +12,7 @@ export default function Pick() {
                     <h1 className="text-[26px] font-bold">Editors Pick</h1>
                 </div>
                 <div className="flex justify-between p-[30px] ">
-                    <div className="relative w-[49%]">
+                    <Link href="../blog" className="relative w-[49%]">
                         <Image src={pick1} 
                         alt="Luke St Quentin on Guitar"
                         className="w-[655px] h-[320px] object-cover" />
@@ -19,8 +20,8 @@ export default function Pick() {
                             <h1 className="text-[18px]">Luke St Quentin Live from Cape Town</h1>
                             <h2 className="text-[14px]">The ups and downs of the High Roller</h2>
                         </div>
-                    </div>
-                    <div className="relative w-[49%]">
+                    </Link>
+                    <Link href="../blog" className="relative w-[49%]">
                         <Image src={pick3} 
                         alt="Nathaniel Donato on Guitar"
                         className="w-[655px] h-[320px] object-cover"  />
@@ -29,7 +30,7 @@ export default function Pick() {
                             <h2 className="text-[14px]">When we say... Juicebox, live from centre Stage</h2>
                         </div>
                         
-                    </div>
+                    </Link>
                 </div>
             </section>
         </>
