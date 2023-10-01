@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import pop1 from "../../public/images/pop1.jpg"
 import pop2 from "../../public/images/pop2.jpg"
 import pop3 from "../../public/images/pop3.jpg"
@@ -16,7 +17,7 @@ export default function Popular() {
                     <h1 className="text-[26px] font-bold">Popular Topics</h1>
                 </div>
                 <div className="flex flex-wrap justify-between relative p-[30px]">
-                    <div className="w-[310px] mb-[30px] bg-white rounded-md">
+                    <Link href="../blog" className="w-[310px] mb-[30px] bg-white rounded-md">
                         <Image src={pop1} 
                         alt="Nathaniel Donato on Guitar"
                         className="w-[310px] h-[280px] object-cover rounded-md" />
@@ -25,7 +26,7 @@ export default function Popular() {
                             <p className="text-third-grey text-[12px]">A bit of a random topic but something that people tend to have differing opinions on, let’s dive deep and find out both sides.</p>
                             <h2 className="mt-[30px] mb-[30px] text-[12px] font-bold">By Nathaniel Donato</h2>
                         </div>
-                    </div>
+                    </Link>
                     <div className="w-[310px] mb-[30px] bg-white rounded-md">
                         <Image src={pop2} 
                         alt="Fender Telecaster"
