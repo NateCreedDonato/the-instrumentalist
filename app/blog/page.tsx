@@ -36,7 +36,7 @@ export default function Blog () {
                         Present day: The guitar is one of the most popular instruments in the world.
                         The guitar is a fascinating instrument with a rich history. It has been played by people all over the world for centuries, and it continues to be a popular choice for musicians of all genres.
                     </p>
-                    <p>
+                    <p className="mb-[30px]">
                         The guitar has been a staple of popular music for decades, but in recent years, it has seen something of a resurgence. This is due to a number of factors, including the popularity of new genres of music that feature guitars prominently, such as indie rock and pop punk, and the increasing availability of high-quality guitars and amps at affordable prices.
                         Another factor contributing to the resurgence of guitars is the rise of social media and streaming platforms. These platforms have made it easier for new artists to reach a wider audience, and many of these artists are incorporating guitars into their music.
                         Finally, the guitar is simply a versatile and expressive instrument that can be used to create a wide range of sounds. This makes it a popular choice for musicians of all genres, from rock and blues to country and folk.
@@ -51,6 +51,7 @@ export default function Blog () {
                         Present day: The guitar is one of the most popular instruments in the world.
                         The guitar is a fascinating instrument with a rich history. It has been played by people all over the world for centuries, and it continues to be a popular choice for musicians of all genres.
                     </p>
+                    <p className="text-[26px] font-bold">By Nathaniel Donato</p>
                 </div>
             </div>
             <Pick />
